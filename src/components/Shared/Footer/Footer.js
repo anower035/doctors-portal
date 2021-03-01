@@ -49,8 +49,8 @@ const Footer = () => {
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
                         </ul>
                         <div className="mt-5">
-                            <h6>Call now</h6>
-                            <button className="btn text-white">+2025550295</button>
+                            <h6 className="text-muted">Call now</h6>
+                            <button className="number text-white">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>

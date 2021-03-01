@@ -1,0 +1,11 @@
+.appointment{
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+    border:none;
+    border-radius:3px;
+    margin-top: 6%;
+}
+.appointment:focus{
+    border-color: linear-gradient(75deg, #19D3AE,#0fcfec);
+    box-shadow: 0 0 0 0.1rem rgba(3, 242, 250, 0.904);
+    cursor: pointer;
+}

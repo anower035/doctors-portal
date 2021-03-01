@@ -2,12 +2,12 @@
     height:800px;
     position:relative;
     background-image: url(../../../images/chairBg.png);
+    z-index: 1;
     background-size: cover;
-    z-index: -100;
 }
 .header-container::after {
     height:700px;
-    content:' ';
+    content:'';
     position: absolute;
     top: 0;
     width: 30%;
