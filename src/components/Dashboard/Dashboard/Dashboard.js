@@ -4,6 +4,7 @@ import Sidebar from '../Sidebar/Sidebar';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { UserContext } from '../../../App';
+import './Dashboard.css';
 
 const containerStyle = {
     backgroundColor: "#F4FDFB",
@@ -31,8 +32,8 @@ const Dashboard = () => {
     return (
         <section  style={containerStyle} className='row'>
             <Sidebar/>
-            <div className="container row col-md-10 my-5">
-                <div className="col-md-5 col-sm-12 col-12 d-flex justify-content-center">
+            <div className="container row col-md-9 my-5">
+                <div className="col-md-4 col-sm-12 col-12 d-flex justify-content-center">
                     <Calendar
                         onChange={handleDateChange}
                         value={new Date()}
